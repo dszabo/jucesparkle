@@ -1,0 +1,1 @@
+../Lib/Mac/bin/sign_update.sh releases/mac/NewProject-1.1.zip ../Lib/Mac/dsa_priv.pem

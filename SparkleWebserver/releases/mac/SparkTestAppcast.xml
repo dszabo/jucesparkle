@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>SparkTest Changelog</title>
+        <link>http://localhost:8080/releases/mac/SparkTestAppcast.xml</link>
+        <description>Most recent changes with links to updates.</description>
+        <language>en</language>
+        <item>
+            <title>Version 1.1 (1 bugs fixed; 0 new features)</title>
+            <sparkle:releaseNotesLink>
+                http://localhost:8080/releases/mac/1.1.html
+            </sparkle:releaseNotesLink>
+            <pubDate>Sat, 20 Sep 2014 14:20:11 +0000</pubDate>
+            <enclosure url="http://localhost:8080/releases/mac/NewProject-1.1.zip" 
+                       sparkle:version="2"
+                       sparkle:shortVersionString="1.1" 
+                       length="1526498" 
+                       type="application/octet-stream" 
+                       sparkle:dsaSignature="MCwCFAWrLZRNRAQ/dnyI4OgtjT0yIzi4AhRx+he8mgCgknCLPxN7MwyQXxItEw==" />
+            <sparkle:minimumSystemVersion>10.7</sparkle:minimumSystemVersion>
+        </item>
+
+
+
+
+    </channel>
+</rss>
