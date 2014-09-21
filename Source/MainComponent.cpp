@@ -11,6 +11,10 @@
 #include "AutoUpdater.h"
 #endif
 
+#if JUCE_MSVC
+#include <winsparkle.h>
+#endif
+
 
 
 //==============================================================================
@@ -22,7 +26,7 @@ MainContentComponent::MainContentComponent()
     button->setBounds(10, 10, 100, 40);
     button->addListener(this);
     
-    label = new Label(L"label1", L"This is a label in 1.1");
+    label = new Label(L"label1", L"This is a label in 1.0.1");
     label->setBounds(10, 60, 200, 30);
     addAndMakeVisible(button);
     addAndMakeVisible(label);
@@ -58,6 +62,10 @@ void MainContentComponent::buttonClicked(Button* button)
     AutoUpdater* updater = 0;
     updater = new SparkleAutoUpdater(L"http://localhost:8080/releases/mac/SparkTestAppcast.xml");
     updater->checkForUpdates();
+#endif
+
+#if JUCE_MSVC
+	win_sparkle_check_update_with_ui();
 #endif
     
 

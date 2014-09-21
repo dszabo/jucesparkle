@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>SparkTest Changelog</title>
+        <link>http://localhost:8080/releases/win/SparkTestAppcast.xml</link>
+        <description>Most recent changes with links to updates.</description>
+        <language>en</language>
+     
+        <item>
+            <title>Version 1.0.1 (1 bugs fixed; 0 new features)</title>
+            <sparkle:releaseNotesLink>
+                http://localhost:8080/releases/win/1.0.1.html
+            </sparkle:releaseNotesLink>
+            <pubDate>Sat, 20 Sep 2014 18:20:11 +0000</pubDate>
+            <enclosure url="http://localhost:8080/releases/win/NewProject-1.0.1-windows-installer.exe" 
+                       sparkle:shortVersionString="1.0.1"
+                       sparkle:version="2" 
+                       length="5284277" 
+                       type="application/octet-stream" 
+                       sparkle:os="windows" />
+        </item>
+
+    </channel>
+</rss>

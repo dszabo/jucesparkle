@@ -1,0 +1,2 @@
+#define VERSION_BUILD L"2"
+#define VERSION_DISPLAY L"1.0.1"
