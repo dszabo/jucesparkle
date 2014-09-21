@@ -26,7 +26,7 @@ MainContentComponent::MainContentComponent()
     button->setBounds(10, 10, 100, 40);
     button->addListener(this);
     
-    label = new Label(L"label1", L"This is a label in 1.0.1");
+    label = new Label(L"label1", L"This is a label in 1.1");
     label->setBounds(10, 60, 200, 30);
     addAndMakeVisible(button);
     addAndMakeVisible(label);

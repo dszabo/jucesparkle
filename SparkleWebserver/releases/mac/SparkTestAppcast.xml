@@ -14,9 +14,9 @@
             <enclosure url="http://localhost:8080/releases/mac/NewProject-1.1.zip" 
                        sparkle:version="2"
                        sparkle:shortVersionString="1.1" 
-                       length="1526498" 
+                       length="1526949" 
                        type="application/octet-stream" 
-                       sparkle:dsaSignature="MCwCFAWrLZRNRAQ/dnyI4OgtjT0yIzi4AhRx+he8mgCgknCLPxN7MwyQXxItEw==" />
+                       sparkle:dsaSignature="MC0CFQCB7ryY5DHBNbs7gZ+QiWs6vM07TAIUFxqncf4kw7z/fEvFvxh69XGeOHc=" />
             <sparkle:minimumSystemVersion>10.7</sparkle:minimumSystemVersion>
         </item>
 

@@ -33,7 +33,9 @@ public:
         AutoUpdater* updater = 0;
         CocoaInitializer cocoaInitiarizer;
         updater = new SparkleAutoUpdater(L"http://localhost:8080/releases/mac/SparkTestAppcast.xml");
-        updater->checkForUpdatesBackground();
+        // we don't need to call checkForUpdatesBackground() because initializing sparkle should be enough
+        // to start rolling. it should show itself on second launch
+        //updater->checkForUpdatesBackground();
 #endif
         mainWindow = new MainWindow();
 

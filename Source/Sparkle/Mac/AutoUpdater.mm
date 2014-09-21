@@ -20,12 +20,10 @@ public:
 SparkleAutoUpdater::SparkleAutoUpdater(const std::wstring& aUrl) {
     d = new Private;
     d->updater = [[SUUpdater sharedUpdater] retain];
-    
-    
-    
-    NSURL* url = [NSURL URLWithString:
-                  [NSString stringWithCPPWString:aUrl]];
+    NSURL* url = [NSURL URLWithString:  [NSString stringWithCPPWString:aUrl]];
     [d->updater setFeedURL: url];
+    [d->updater setAutomaticallyChecksForUpdates:YES];
+    [d->updater setAutomaticallyDownloadsUpdates:NO];
 }
 
 SparkleAutoUpdater::~SparkleAutoUpdater() {
